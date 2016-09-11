@@ -54,6 +54,8 @@ int len_of_substr_hash(const std::string& str) {
 		}
 		++r; // next char
 	}
+	cset.clear();
+
 	max_len = std::max(max_len, r - l);
 	return max_len;	
 }
