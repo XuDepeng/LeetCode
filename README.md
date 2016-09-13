@@ -3,7 +3,6 @@ All the projects are created by visual studio 2013, but you can copy any of thes
 
 Below is the progress i have made up to day.
 
- ```
 |title|difficulty|state|
 |:-|:-|:-|
 |Two Sum|Easy|done|
@@ -17,4 +16,8 @@ Below is the progress i have made up to day.
 |Palindrome Number|Easy|TODO|
 |Regular Expression Matching|Hard|TODO|
 |Container With Most Water|Medium|done|
- ```
+
+  | Title   | Description                        |
+  | :------ | :--------------------------------: |
+  | Version | 0.0.1                              |
+  | Editor  | [Melo618](mailto:Editor@Email.com) |
