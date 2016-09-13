@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZigZagConversion", "ZigZagC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseInteger", "ReverseInteger\ReverseInteger.vcxproj", "{3F7743EB-DDFD-46C9-9717-448ADF48E4A6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContainerWithMostWater", "ContainerWithMostWater\ContainerWithMostWater.vcxproj", "{B3CFF156-AE8D-424B-BC4E-6921A8882A15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -105,6 +107,17 @@ Global
 		{3F7743EB-DDFD-46C9-9717-448ADF48E4A6}.Release|Win32.ActiveCfg = Release|Win32
 		{3F7743EB-DDFD-46C9-9717-448ADF48E4A6}.Release|Win32.Build.0 = Release|Win32
 		{3F7743EB-DDFD-46C9-9717-448ADF48E4A6}.Release|x64.ActiveCfg = Release|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Debug|Win32.Build.0 = Debug|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Debug|x64.ActiveCfg = Debug|x64
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Debug|x64.Build.0 = Debug|x64
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Release|Win32.ActiveCfg = Release|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Release|Win32.Build.0 = Release|Win32
+		{B3CFF156-AE8D-424B-BC4E-6921A8882A15}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
