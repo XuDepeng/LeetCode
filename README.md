@@ -8,7 +8,7 @@ Below is the progress I have made up to day.
 
 |title|difficulty|state|
 |:--|:--|:--|
-|Two Sum|Easy|done|
+|[Two Sum]|Easy|done|
 |Add Two Numbers|Medium|done|
 |Longest Substring Without Repeating Characters|Medium|done|
 |Median of Two Sorted Arrays|Hard|done|
@@ -19,3 +19,5 @@ Below is the progress I have made up to day.
 |Palindrome Number|Easy|TODO|
 |Regular Expression Matching|Hard|TODO|
 |Container With Most Water|Medium|done|
+
+[Two Sum]:https://leetcode.com/problems/two-sum/
