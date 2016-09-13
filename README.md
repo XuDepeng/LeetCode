@@ -6,14 +6,14 @@ Below is the progress i have made up to day.
 
 |title|difficulty|state| 
 |:-|:-|:-| 
-|Two Sum|Easy|done| 	
-|Add Two Numbers|Medium|done| 	
-|Longest Substring Without Repeating Characters|Medium|done|	
-|Median of Two Sorted Arrays|Hard|done|	
-|Longest Palindromic Substring|Medium|done|	
-|ZigZag Conversion|Easy|done|	
-|Reverse Integer|Easy|done|	
-|String to Integer (atoi)|Easy|TODO|	
-|Palindrome Number|Easy|TODO|
-|Regular Expression Matching|Hard|TODO|
-|Container With Most Water|Medium|done|
+|Two Sum|Easy|done| 
+|Add Two Numbers|Medium|done| 
+|Longest Substring Without Repeating Characters|Medium|done|
+|Median of Two Sorted Arrays|Hard|done| 
+|Longest Palindromic Substring|Medium|done| 
+|ZigZag Conversion|Easy|done| 
+|Reverse Integer|Easy|done| 
+|String to Integer (atoi)|Easy|TODO| 
+|Palindrome Number|Easy|TODO| 
+|Regular Expression Matching|Hard|TODO| 
+|Container With Most Water|Medium|done| 
