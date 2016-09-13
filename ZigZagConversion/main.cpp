@@ -35,13 +35,19 @@ string convert(string s, int numRows) {
 	for (int i = 1; i < s.length(); ++i) {
 		row += pos.data;
 		str_rows[row].push_back(s[i]);
-		pos = *pos.next;	
+		pos = *pos.next;
 	}
 
 	string ret;
 	for (int i = 0; i < numRows; ++i) {
 		ret += str_rows[i];
 	}
+
+	ns.clear();
+	ns.shrink_to_fit();
+
+	str_rows.clear();
+	str_rows.shrink_to_fit();
 
 	return ret;
 }

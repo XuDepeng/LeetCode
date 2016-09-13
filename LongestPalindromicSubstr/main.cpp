@@ -2,7 +2,8 @@
 #include <cstdio>
 
 #include <string>
-#include <sstream>
+#include <vector>
+#include <algorithm>
 
 #include <iostream>
 
@@ -51,15 +52,51 @@ string longest_palindrome_scan(string s) {
 	return longest_str;
 }
 
+string pre_process(string s) {
+	int n = (int)s.length();
+	if (n == 0) return "^$";
+	string ret = "^";
+	for (int i = 0; i < n; i++)
+		ret += "#" + s.substr(i, 1);
+
+	ret += "#$";
+	return ret;
+}
+
 string longest_palindrome_manacher(string s) {
-	return string();
+	string T = pre_process(s);
+	int n = (int)T.length();
+	vector<int> P(n);
+	int C = 0, R = 0;
+	for (int i = 1; i < n - 1; i++) {
+		int i_mirror = 2 * C - i; // equals to i' = C - (i-C)
+
+		P[i] = (R > i) ? std::min(R - i, P[i_mirror]) : 0;
+
+		// attempt to expand palindrome centered at i
+		while (T[i + 1 + P[i]] == T[i - 1 - P[i]])
+			P[i]++;
+
+		// if palindrome centered at i expand past R,
+		// adjust center based on expanded palindrome.
+		if (i + P[i] > R) {
+			C = i;
+			R = i + P[i];
+		}
+	}
+
+	// find the maximum element in P.
+	vector<int>::iterator max_val = std::max_element(P.begin(), P.end());
+	int cen_idx = (int)distance(P.begin(), max_val);
+
+	return s.substr((cen_idx - 1 - *max_val) / 2, *max_val);
 }
 
 int main() {
 	string str;
 	getline(cin, str);
 
-	string ret = longest_palindrome_scan(str);
+	string ret = longest_palindrome_manacher(str);
 
 	printf("%s\n", ret.c_str());
 
