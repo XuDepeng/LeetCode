@@ -3,6 +3,7 @@ All the projects are created by visual studio 2013, but you can copy any of thes
 
 Below is the progress i have made up to day.
 
+
 |title|difficulty|state|
 |:-|:-|:-|
 |Two Sum|Easy|done|	
