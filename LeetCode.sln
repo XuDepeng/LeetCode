@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxSubmatrix", "MaxSubmatri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RomanToInteger", "RomanToInteger\RomanToInteger.vcxproj", "{4FAEAD71-FAA3-4D46-B232-E0825C92230A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3Sum", "3Sum\3Sum.vcxproj", "{372DBF08-9458-41AB-9C9F-4FF92C000C39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -170,6 +172,17 @@ Global
 		{4FAEAD71-FAA3-4D46-B232-E0825C92230A}.Release|Win32.ActiveCfg = Release|Win32
 		{4FAEAD71-FAA3-4D46-B232-E0825C92230A}.Release|Win32.Build.0 = Release|Win32
 		{4FAEAD71-FAA3-4D46-B232-E0825C92230A}.Release|x64.ActiveCfg = Release|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Debug|Win32.ActiveCfg = Debug|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Debug|Win32.Build.0 = Debug|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Debug|x64.ActiveCfg = Debug|x64
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Debug|x64.Build.0 = Debug|x64
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Release|Win32.ActiveCfg = Release|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Release|Win32.Build.0 = Release|Win32
+		{372DBF08-9458-41AB-9C9F-4FF92C000C39}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
