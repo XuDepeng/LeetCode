@@ -1,45 +1,33 @@
 #include <iostream>
 
-#include <vector>
-#include <list>
-
 #include <string>
-#include <sstream>
+
 #include <algorithm>
 
 using namespace std;
 
 int main() {
-	int Te = 0;
-	cin >> Te;
-	for (int i = 0; i < Te; ++i) {
-		int n = 0;
-		cin >> n;
-		list<string> usr_id, i_id;
+	int n[] = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+	string r[] = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
-		string str;
-		getline(cin, str);
-		getline(cin, str);
-		stringstream ss;
-		ss.str(str);
+	int num = 0;
+	scanf_s("%d", &num);
 
-		while (ss >> str) {
-			usr_id.push_back(str);
+	string ret;
+	while (num) {
+		for (int i = 0; i < sizeof(n) / sizeof(n[0]); ++i) {
+			int cur = num / n[i];
+			if (cur > 0) {
+				num = num - cur * n[i];
+				while (cur--) {
+					ret += r[i];
+				}
+				break;
+			}
 		}
-		ss.clear();
-
-		getline(cin, str);
-		ss.str(str);
-		while (ss >> str) {
-			usr_id.remove(str);
-			i_id.push_back(str.c_str());
-		}
-
-		printf("%s\n", usr_id.front().c_str());
-
-		usr_id.clear();
-		i_id.clear();
 	}
+
+	printf("%s\n", ret.c_str());
 
 	system("pause");
 	return 0;
