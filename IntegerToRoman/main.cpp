@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include <vector>
 #include <list>
 
 #include <string>
@@ -14,41 +15,30 @@ int main() {
 	for (int i = 0; i < Te; ++i) {
 		int n = 0;
 		cin >> n;
-		list<string> usr_id;
+		list<string> usr_id, i_id;
 
-		list<string> str_lst;
-		stringstream ss;
 		string str;
-
-		for (int i = 0; i < n; ++i) {
-			cin >> str;
-			str_lst.push_back(str);
-		}
-
-		copy(str_lst.begin(), str_lst.end(), ostream_iterator<string>(ss, " "));
-		str_lst.clear();
+		getline(cin, str);
+		getline(cin, str);
+		stringstream ss;
+		ss.str(str);
 
 		while (ss >> str) {
 			usr_id.push_back(str);
 		}
 		ss.clear();
 
-		for (int i = 0; i < n - 1; ++i) {
-			cin >> str;
-			str_lst.push_back(str);
-		}
-
-		copy(str_lst.begin(), str_lst.end(), ostream_iterator<string>(ss, " "));
-		str_lst.clear();
-
+		getline(cin, str);
+		ss.str(str);
 		while (ss >> str) {
 			usr_id.remove(str);
+			i_id.push_back(str.c_str());
 		}
 
 		printf("%s\n", usr_id.front().c_str());
 
-		str_lst.clear();
 		usr_id.clear();
+		i_id.clear();
 	}
 
 	system("pause");
