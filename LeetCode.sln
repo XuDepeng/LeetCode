@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3Sum", "3Sum\3Sum.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3SumClosest", "3SumClosest\3SumClosest.vcxproj", "{8EF8D686-6F1E-4855-9093-3EEF99EEF3B4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LetterCombinationsOfPhoneNumber", "LetterCombinationsOfPhoneNumber\LetterCombinationsOfPhoneNumber.vcxproj", "{A0330F10-C55C-4937-A60B-EB63C7EB4703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -196,6 +198,17 @@ Global
 		{8EF8D686-6F1E-4855-9093-3EEF99EEF3B4}.Release|Win32.ActiveCfg = Release|Win32
 		{8EF8D686-6F1E-4855-9093-3EEF99EEF3B4}.Release|Win32.Build.0 = Release|Win32
 		{8EF8D686-6F1E-4855-9093-3EEF99EEF3B4}.Release|x64.ActiveCfg = Release|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Debug|Win32.Build.0 = Debug|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Debug|x64.ActiveCfg = Debug|x64
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Debug|x64.Build.0 = Debug|x64
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Release|Win32.ActiveCfg = Release|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Release|Win32.Build.0 = Release|Win32
+		{A0330F10-C55C-4937-A60B-EB63C7EB4703}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
