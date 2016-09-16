@@ -32,34 +32,23 @@ public:
 				if (sum > rem){
 					r--;
 				}
-
 				else if (sum < rem){
 					l++;
 				}
-
 				else{
-					vector<int> temp;
-					temp.push_back(nums[cur]);
-					temp.push_back(nums[l]);
-					temp.push_back(nums[r]);
-
 					// it seems to cost a lot of time!
 					// if (find(ret.begin(), ret.end(), temp) == ret.end()) {
-					//	ret.push_back(temp);
+					ret.push_back({ nums[cur], nums[l], nums[r] });
 					//}
 					//}
 
 					// skip same figures
 					while (++l < r && nums[l] == nums[l - 1]);
 					while (l < --r && nums[r] == nums[r + 1]);
-
-					temp.clear();
-					temp.shrink_to_fit();
-
-					l++;
 				}
 			}
-			cur++;
+
+			while (++cur < nums.size() && nums[cur] == nums[cur - 1]);
 		}
 		return ret;
 	}
