@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LetterCombinationsOfPhoneNu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4Sum", "4Sum\4Sum.vcxproj", "{AF8556EF-C6DC-4B17-A747-C733112CDA37}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveNthNodeFromEndOfList", "RemoveNthNodeFromEndOfList\RemoveNthNodeFromEndOfList.vcxproj", "{05058175-C7B1-4A4C-8497-C8380F8078D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -222,6 +224,17 @@ Global
 		{AF8556EF-C6DC-4B17-A747-C733112CDA37}.Release|Win32.ActiveCfg = Release|Win32
 		{AF8556EF-C6DC-4B17-A747-C733112CDA37}.Release|Win32.Build.0 = Release|Win32
 		{AF8556EF-C6DC-4B17-A747-C733112CDA37}.Release|x64.ActiveCfg = Release|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Debug|Win32.Build.0 = Debug|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Debug|x64.ActiveCfg = Debug|x64
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Debug|x64.Build.0 = Debug|x64
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Release|Win32.ActiveCfg = Release|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Release|Win32.Build.0 = Release|Win32
+		{05058175-C7B1-4A4C-8497-C8380F8078D7}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
