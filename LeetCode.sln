@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoveNthNodeFromEndOfList"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ValidParentheses", "ValidParentheses\ValidParentheses.vcxproj", "{6BF2AF5C-87E2-4A49-8611-C7A8235DC738}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.vcxproj", "{4A954CF7-26B6-4A57-8676-80E6D01862B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -248,6 +250,17 @@ Global
 		{6BF2AF5C-87E2-4A49-8611-C7A8235DC738}.Release|Win32.ActiveCfg = Release|Win32
 		{6BF2AF5C-87E2-4A49-8611-C7A8235DC738}.Release|Win32.Build.0 = Release|Win32
 		{6BF2AF5C-87E2-4A49-8611-C7A8235DC738}.Release|x64.ActiveCfg = Release|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Debug|Win32.Build.0 = Debug|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Debug|x64.ActiveCfg = Debug|x64
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Debug|x64.Build.0 = Debug|x64
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Release|Win32.ActiveCfg = Release|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Release|Win32.Build.0 = Release|Win32
+		{4A954CF7-26B6-4A57-8676-80E6D01862B9}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
