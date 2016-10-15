@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenerateParentheses", "Gene
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DivideTwoIntegers", "DivideTwoIntegers\DivideTwoIntegers.vcxproj", "{D5A50F21-E6B8-4168-B799-9BABE2415B90}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strStr", "strStr\strStr.vcxproj", "{A991BE87-74B0-4FE3-8459-447DCE8072B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -287,6 +289,17 @@ Global
 		{D5A50F21-E6B8-4168-B799-9BABE2415B90}.Release|Win32.ActiveCfg = Release|Win32
 		{D5A50F21-E6B8-4168-B799-9BABE2415B90}.Release|Win32.Build.0 = Release|Win32
 		{D5A50F21-E6B8-4168-B799-9BABE2415B90}.Release|x64.ActiveCfg = Release|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Debug|Win32.Build.0 = Debug|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Debug|x64.ActiveCfg = Debug|x64
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Debug|x64.Build.0 = Debug|x64
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Release|Win32.ActiveCfg = Release|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Release|Win32.Build.0 = Release|Win32
+		{A991BE87-74B0-4FE3-8459-447DCE8072B8}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
